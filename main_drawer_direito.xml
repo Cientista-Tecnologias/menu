@@ -1,0 +1,41 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+
+    <item android:id="@+id/main_drawer_direito" android:title="FILTRO E ORDENAÇÃO" />
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/Entrega"
+            android:icon="@drawable/ic_menu_send"
+            android:title="Entrega Grátis" />
+        <item
+            android:id="@+id/Reserva1"
+            android:icon="@drawable/ic_menu_send"
+            android:title="Delivery" />
+        <item
+            android:id="@+id/Reserva2"
+            android:icon="@drawable/ic_menu_send"
+            android:title="Retirada" />
+        <item
+            android:id="@+id/Reserva"
+            android:icon="@drawable/ic_menu_send"
+            android:title="Reserva" />
+        <item
+            android:id="@+id/Relevancia"
+            android:icon="@drawable/ic_menu_send"
+            android:title="Relevância" />
+        <item
+            android:id="@+id/Cozinha"
+            android:icon="@drawable/ic_menu_send"
+            android:title="Cozinha" />
+        <item
+        android:id="@+id/Pagamento"
+        android:icon="@drawable/ic_menu_send"
+        android:title="Pagamento" />
+    </group>
+
+
+</menu>
